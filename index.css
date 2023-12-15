@@ -36,7 +36,7 @@ p{
 }
 @media(min-width:300px) and (max-width:780px){
     section{
-        width: 100%;
+        width: -webkit-fill-available;
         padding: 50px 0;
     }
     img{
@@ -59,6 +59,6 @@ p{
         width: fit-content;
         display: block;
         margin: 0 75px;
-        padding: 20px
+        padding: 8px
     }
 }
