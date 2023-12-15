@@ -20,7 +20,7 @@ img{
     flex-direction: column;
     align-items: center;
 }
-section{
+main{
     background-color: hsl(212, 45%, 89%);
     padding: 68px 390px;
 }
@@ -58,5 +58,6 @@ p{
         width: fit-content;
         display: block;
         margin: 0 75px;
+        padding:20px
     }
 }
