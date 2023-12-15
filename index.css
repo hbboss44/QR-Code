@@ -20,9 +20,12 @@ img{
     flex-direction: column;
     align-items: center;
 }
-section{
+body{
     background-color: hsl(212, 45%, 89%);
-    padding: 68px 390px;
+}
+section{
+    margin: 42px auto;
+    width: 39%;
 }
 h1{
     color: hsl(218, 44%, 22%);
@@ -36,8 +39,8 @@ p{
 }
 @media(min-width:300px) and (max-width:780px){
     section{
-        width: -webkit-fill-available;
-        padding: 50px 0;
+        width: fit-content;
+        margin: 37px auto 25px;
     }
     img{
         width:200px;
@@ -47,9 +50,9 @@ p{
         text-align: center;
     }
     h1{
-        padding: 15px 35px;
-        font-size: 16px;
-        text-align: center
+        padding: 12px 28px;
+    text-align: center;
+    font-size: 16px;
     }
     p{
         font-size: 11px;
