@@ -39,8 +39,8 @@ p{
 }
 @media(min-width:300px) and (max-width:780px){
     section{
-        width: fit-content;
-        margin: 37px auto 25px;
+       width: fit-content;
+        margin: 50px auto 0;
     }
     img{
         width:200px;
@@ -50,18 +50,22 @@ p{
         text-align: center;
     }
     h1{
-        padding: 12px 28px;
+        padding: 12px 15px;
     text-align: center;
     font-size: 16px;
     }
     p{
         font-size: 11px;
         line-height: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
     }
     .wrapper{
-        width: fit-content;
+        width: 70%;
+        margin: 0 auto;
         display: block;
-        margin: 0 75px;
-        padding: 8px
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
